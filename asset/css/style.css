@@ -10,12 +10,21 @@ body {
 
 p { padding:15px;}
 
+#contenu { max-width: 900px;}
+
 #unicorn {float: right; width: 300px;padding:20px;}
 
 h1 {
   color:#ffc0cb;
   text-align: center;
+  transition:all 3s ease;
+}
+
+h1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#800080), to(#ffc0cb));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
-#auteur {text-align: right;font-size: 0.8em;margin-right: 30%;}
+#auteur {text-align: right;font-size: 1em;margin-right: 30%;}
