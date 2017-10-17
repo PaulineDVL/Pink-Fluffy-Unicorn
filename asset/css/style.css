@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+* {box-sizing: border-box;}
+
+p { padding:15px;}
+
+#unicorn {float: right; width: 300px;padding:20px;}
+
+h1 {
+  color:#ffc0cb;
+  text-align: center;
+}
+
+
+#auteur {text-align: right;font-size: 0.8em;margin-right: 30%;}
