@@ -1,0 +1,16 @@
+.button {
+  padding: 5px;
+  background-color: #9b59b6;
+}
+/** GRILLE **/
+.wrapper {
+  widt: 30rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+@media screen and (min-width: 50rem) {
+  width: 50;
+}
+@media screen and (min-width: 64rem) {
+  width: 64;
+}
