@@ -4,8 +4,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: justify;
-  font-family: sans-serif;
-  line-height: 30px;
+  font-family: 'Indie Flower', cursive;
+  line-height: 1em;
+  background-image: url(http://img5.laughinggif.com/pic/HTTP3d3dy5kb2xsaWVob3N0LmNvbS9kb2xsaWVjcmF2ZS9iYWNrZ3JvdW5kcy9nbGl0dGVyLzMyLmdpZgloglog.gif);
+  color: white;
+  font-size: 3em;
 }
 
 * {box-sizing: border-box;}
@@ -20,6 +23,7 @@ h1 {
   color:#ffc0cb;
   text-align: center;
   transition:all 3s ease;
+  text-shadow: 2px 2px black;
 }
 
 h1:hover {
@@ -52,5 +56,6 @@ h1:hover {
 img { transition: .5s all linear;}
 
 img:hover {
-  transform: rotate(360);
+  transform: rotate(360deg);
+  opacity: 0;
 }
