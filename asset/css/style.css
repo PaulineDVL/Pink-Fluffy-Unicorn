@@ -48,3 +48,9 @@ h1:hover {
 .button:hover {
   border-radius:12px;
 }
+
+img { transition: .5s all linear;}
+
+img:hover {
+  transform: rotate(360);
+}
