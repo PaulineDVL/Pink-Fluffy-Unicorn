@@ -1,5 +1,12 @@
-# Ma Super Licorne
+# Pink Fluffy Unicorn
 
-## Ceci est un test
+Projet HTML/CSS - Licorne
 
-### Ceci est le est numero 3
+## Pinbk Fluffy Unicorn dancing on rainbows
+
+- Auteur : Pauline Duval
+- Mail : pauline.duval27@outlook.fr
+
+---
+
+Réalisation d'une page HTML avec le texte *La Licorne.txt*.
