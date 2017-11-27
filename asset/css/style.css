@@ -6,9 +6,8 @@ body {
   text-align: justify;
   font-family: 'Indie Flower', cursive;
   line-height: 1em;
-  background-color: #f6d7f7;
-  color: white;
-  font-size: 3em;
+  background-color: #f7e1f7;
+  font-size: 2em;
 }
 
 * {box-sizing: border-box;}
@@ -17,7 +16,11 @@ p { padding:15px;}
 
 #contenu { max-width: 900px;}
 
-#unicorn {float: right; width: 300px;padding:20px;}
+#unicorn {
+  float: right;
+   width: 300px;
+   padding:20px;
+ }
 
 h1 {
   color:#ffc0cb;
@@ -33,9 +36,16 @@ h1:hover {
 }
 
 
-#auteur {text-align: right;font-size: 1em;margin-right: 30%;}
+#auteur {
+  text-align: right;
+  font-size: 1em;
+  margin-right: 30%;
+}
 
-.button {padding:5px; background-color:@color-primary; }
+.button {
+  padding:5px;
+  background-color:@color-primary;
+}
 
 
 .button {
@@ -58,4 +68,17 @@ img { transition: .5s all linear;}
 img:hover {
   transform: rotate(360deg);
   opacity: 0;
+}
+
+
+
+@media all and (max-width: 780px) {
+body {
+font-size: 1.5em;
+}
+
+#unicorn{
+  width: 8em;
+}
+
 }
